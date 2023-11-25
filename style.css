@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Montsarret";
+}
+
+.bg-container {
+    background-image: url("background.png");
+    padding-top: 1rem;
+    height: 100vh;
+}
+
+.pwd-generator-bg {
+    background-color: #0a0e31;
+    width: 375px;
+    padding: 1.5rem;
+    border-radius: 2rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.45), 0 4px 8px rgba(0, 0, 0, 0.35), 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.password-label {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.08);
+    border-radius: .5rem;
+    margin-top: .7rem;
+    text-align: center;
+}
+
+.password-label p {
+    font-size: 15px;
+    padding: .9rem;
+    font-family: "Montsarret";
+    color: white;
+    opacity: .6;
+    letter-spacing: 1px;
+}
+
+.input-length {
+    padding: .5rem;
+    background-color: rgba(255, 255, 255, 0.08);
+    margin-top: .1rem;
+    border: .5rem;
+    height: 30px;
+    margin: auto;
+    color: white;
+}
+
+.length {
+    margin-top: .1rem;
+    color: rgba(242, 242, 242, 0.537);
+}
+
+.settings {
+    color: rgba(242, 242, 242, 0.537);
+}
+
+.setting-container {
+    background-color: rgba(255, 255, 255, 0.08);
+    border-radius: 5px;
+    padding-top: 5px;
+    width: 100%;
+}
+
+.setting-name {
+    color: white;
+    font-size: 20px;
+    letter-spacing: .7px;
+    margin-right: 2rem;
+    width: 60%;
+
+}
+
+.toggle-switch {
+    margin-left: 2rem !important;
+    width: 50px !important;
+    height: 25px;
+    margin-top: .5rem;
+
+}
+
+.toggle-switch-container {
+    width: 40%;
+}
+
+.generate-btn {
+    width: 90%;
+    height: 60px;
+    border: none;
+    background-color: rgb(200, 191, 231);
+    border-radius: 1rem;
+    margin: auto;
+    margin-top: 20px;
+    letter-spacing: .8px;
+    font-weight: 600;
+}
